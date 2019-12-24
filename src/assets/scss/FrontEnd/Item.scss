@@ -1,0 +1,51 @@
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0 0;
+}
+
+// overlay
+
+.overlay-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: darkcyan;
+}
+
+.overlay-text {
+  display: none;
+  position: absolute;
+  transition: .5s ease;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card:hover .overlay-box {
+  transition: .5s ease;
+  opacity: 0.9;
+}
+
+.card:hover .overlay-text {
+  display: block;
+  transition: .5s ease;
+  opacity: 1;
+}
+
+//text-overflow
+
+.text-overflow-center {
+  margin-left: -100%;
+  margin-right: -100%;
+  text-align: center;
+}
+
+

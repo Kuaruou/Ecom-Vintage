@@ -1,0 +1,50 @@
+.c-carousel {
+  width: 100vw;
+  height: 100vh;
+}
+
+.c-carousel-01 {
+  background: url("../../assets/images/carousel/carousel-01.jpg") center center / cover no-repeat;
+}
+
+.c-carousel-02 {
+  background: url("../../assets/images/carousel/carousel-02.jpg") center center / cover no-repeat;
+}
+
+.c-carousel-03 {
+  background: url("../../assets/images/carousel/carousel-03.jpg") center center / cover no-repeat;
+}
+
+.c-carousel-slogan {
+  color: #fff;
+  font-size: 5rem;
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 15%;
+  transform: translate(-15%, -40%);
+  background: linear-gradient(transparent 30%, rgba(0,0,0,0.6) 80%);
+}
+
+.c-carousel-description {
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 100;
+  top: 60%;
+  left: 15%;
+  transform: translate(-10%, -10%);
+  background: linear-gradient(transparent 30%, rgba(0,0,0,0.6) 80%);
+}
+
+@media (max-width: 992px) {
+  .c-carousel-slogan {
+    font-size: 3rem;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%, -50%);
+  }
+  .c-carousel-description {
+    font-size: 1rem;
+  }
+}

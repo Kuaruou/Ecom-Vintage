@@ -1,0 +1,37 @@
+.c-wrap-bg {
+  min-height: 100vh;
+  width: 100%;
+  padding: 15vh 0;
+  background: url("../../assets/images/checkout/bg-checkout.jpg") center center / cover no-repeat;
+  background-attachment: fixed;
+}
+
+.c-step-width {
+  width: 175px;
+}
+
+.c-table-width {
+  width: 75%;
+}
+
+.c-form-width{
+  width: 60%;
+}
+
+@media (max-width: 992px) {
+  .c-mobile-text-size {
+    font-size: 0.65rem;
+  }
+
+  .c-mobile-width {
+    width: 100%;
+  }
+
+  .c-table-width {
+    width: 100%;
+  }
+
+  .c-form-width{
+    width: 100%;
+  }
+}
