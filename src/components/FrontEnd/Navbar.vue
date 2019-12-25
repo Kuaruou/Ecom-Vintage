@@ -32,16 +32,6 @@
               <span class="font-weight-bold">&nbsp;Shop</span>
             </a>
           </li>
-          <li class="nav-item ml-3 py-2" v-if="navItemShowJudge !== 'about'">
-            <a
-              class="nav-link c-nav-link text-white h6 rounded mb-0"
-              href="#"
-              @click.prevent="toPage('about')"
-            >
-              <i class="fas fa-info-circle"></i>
-              <span class="font-weight-bold">&nbsp;About</span>
-            </a>
-          </li>
           <li class="nav-item ml-3 py-2" v-if="navItemShowJudge !== 'checkout'">
             <a
               class="nav-link c-nav-link text-white h6 rounded mb-0"
@@ -70,6 +60,16 @@
                 <i class="fas fa-cog"></i>
                 <span class="font-weight-bold">&nbsp;Login</span>
               </a>
+          </li>
+          <li class="nav-item ml-3 py-2" v-if="navItemShowJudge !== 'about'">
+            <a
+              class="nav-link c-nav-link text-white h6 rounded mb-0"
+              href="#"
+              @click.prevent="toPage('about')"
+            >
+              <i class="fas fa-info-circle"></i>
+              <span class="font-weight-bold">&nbsp;About</span>
+            </a>
           </li>
         </ul>
       </div>
