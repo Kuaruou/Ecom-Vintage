@@ -1,6 +1,6 @@
 # Ecom-Vintage
 
-### [[網站連結]](https://kuaruou.github.io/Ecom-Vintage/dist/#/) ###
+### [[網站連結]](https://kuaruou.github.io/Ecom-Vintage/#/) ###
 
 ## Project setup
 ```
