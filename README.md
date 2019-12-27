@@ -4,8 +4,16 @@
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cover.png)
 
 ## 簡介
+<h3>功能<h3>
+本電商網站為<code>Vue.js</code>練習作品，主要的功能有:
+<h3>前台<h3>
+  1. 以卡片形式展示商品，先簡約的只呈現圖片、商品和價格，再以Modal呈現詳細介紹。
+  2. 設計搜尋欄和商品分類方便快速尋找所要的商品。
+  3. 購物車可對於購買商品進行確認及刪除，同時可套用優惠碼獲得折扣，並用VeeValidate對用戶進行表單驗證，避免資料不符格式或缺漏。
+  4. 管理者可以透過帳號密碼登入系統認證直接進入後台。
 
-本電商網站為<code>Vue.js</code>練習作品，主要使用技術有:
+<h3>技術<h3>
+
 <p>
   <code>Vue CLI</code>
   <code>Vue Router</code>
@@ -18,6 +26,9 @@
   <code>Evnet Bus</code>
   <code>Props & Emit</code>
 </p>
+
+
+
 
 ## Project setup
 ```
