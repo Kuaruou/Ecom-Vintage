@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav id="navbar" class="navbar navbar-expand-lg transparent fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg  fixed-top">
       <div class="nav-item">
         <a
           class="nav-link c-nav-link text-white h2 font-weight-bolder rounded mb-0"
@@ -141,16 +141,25 @@ export default {
     }
   },
   created() {
-    $(window).scroll(() => {
-      if ($(document).scrollTop() > 50) {
-        $("#navbar").removeClass("transparent");
-        $("#navbar").addClass("bg-dark");
-      } else {
-        $("#navbar").addClass("transparent");
-        $("#navbar").removeClass("bg-dark");
-      }
-    });
-  }
+    // $(window).scroll(() => {
+    //   if ($(document).scrollTop() > 5) {
+    //     $("#navbar").removeClass("transparent");
+    //     $("#navbar").addClass("bg-dark");
+    //   } else {
+    //     $("#navbar").addClass("transparent");
+    //     $("#navbar").removeClass("bg-dark");
+    //   }
+    // });
+    // $(window).resize(function() {
+    // if ($(window).width() < 992) {
+    //   $("#navbar").removeClass("transparent");
+    //   $("#navbar").addClass("bg-dark");
+    // } else {
+    //   $("#navbar").addClass("transparent");
+    //   $("#navbar").removeClass("bg-dark");
+    // }
+    // }).resize();
+  },
 };
 </script>
 

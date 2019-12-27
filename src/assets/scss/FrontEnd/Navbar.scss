@@ -1,5 +1,8 @@
 .navbar {
   background: transparent;
+  @media (max-width: 992px) {
+    background: rgba(53, 58, 64, 0.95);
+  }
 }
 
 .c-nav-link {
@@ -21,8 +24,8 @@
   outline: #fff;
 }
 
-@media (max-width: 992px) {
-  .c-navbar {
-    background: rgba(0, 0, 0, 0.65);
-  }
-}
+// @media (max-width: 992px) {
+//   .c-navbar {
+//     background: rgba(0, 0, 0, 0.65);
+//   }
+// }
