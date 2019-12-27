@@ -5,7 +5,7 @@
 
 ## 簡介
 
-本電商網站為<code>Vue.js</code>練習作品，主要使用技術有 
+本電商網站為<code>Vue.js</code>練習作品，主要使用技術有:
 <p>
   <code>Vue CLI</code>
   <code>Vue Router</code>
