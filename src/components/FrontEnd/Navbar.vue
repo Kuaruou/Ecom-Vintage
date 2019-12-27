@@ -150,15 +150,6 @@ export default {
     //     $("#navbar").removeClass("bg-dark");
     //   }
     // });
-    // $(window).resize(function() {
-    // if ($(window).width() < 992) {
-    //   $("#navbar").removeClass("transparent");
-    //   $("#navbar").addClass("bg-dark");
-    // } else {
-    //   $("#navbar").addClass("transparent");
-    //   $("#navbar").removeClass("bg-dark");
-    // }
-    // }).resize();
   },
 };
 </script>
