@@ -37,7 +37,7 @@
         <button class="btn btn-lg btn-info btn-block" type="submit">登入</button>
         <a class="my-3 text-center nav-link p-0 font-weight-bold" href="#"
           @click.prevent="goBack">返回首頁</a>
-        <p class="mt-5 mb-3 text-muted">Rolly's Vintage&copy; 2019</p>
+        <p class="mt-5 mb-3 text-muted text-center">Rolly's Vintage&copy; 2019</p>
       </form>
     </div>
     <div v-if="isDeviceError" class="h3 text-center text-white text-bolder c-device-error p-3 rounded">
