@@ -4,11 +4,9 @@
     <Navbar />
     <div class="d-flex justify-content-center align-items-center bg-image">
       <div class="bg-text d-flex">
-        <div class="h5 container justify-content-center align-items-center position-relative p-3">
-           
-          <img src="../../assets/images/about/owner.jpg" style="height: 15rem;" alt="" align="left"
-            class="p-3 justify-content-center">
-        
+        <div class="h5 container justify-content-center align-items-center position-relative p-3">          
+          <img src="../../assets/images/about/owner.jpg" style="height: 20rem;" alt="" align="left"
+            class="p-3 justify-content-center">        
           <p>
             本店主理人Carl Fan原本從事科技業，由於父親熱愛收集各類古董家具和藝術品，
             從小就影響了他個人的美感和對於老東西的喜好。Carl高中時代便開始打工收集各國經典古著，
@@ -87,9 +85,13 @@ export default {
 }
 
 .bg-text {
-  background: #26453d;
-  opacity: 0.9;
+  background: rgba(38, 69, 61, 0.9);
   color: bisque;
+}
+
+img {
+  z-index: 100;
+  opacity: 1;
 }
 
 </style>
