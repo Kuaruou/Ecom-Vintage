@@ -4,8 +4,7 @@
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cover.png)
 
 ## 簡介
-<h4>功能
-本電商網站為<code>Vue.js</code>練習作品，主要的功能有:
+<h4>本電商網站為<code>Vue.js</code>練習作品，主要的功能有:</h4>
 <h4>前台</h4>
   <ul>
     <li>以卡片形式展示商品，先簡約的只呈現圖片、商品和價格，再以Modal呈現詳細介紹。</li>
