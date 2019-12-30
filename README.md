@@ -21,7 +21,7 @@
     <li>優惠券列表可以編輯和新增刪除優惠券，並可編輯優惠券的名稱、折扣數、到期日及是否啟用。</li>
   </ul>
 
-<h3>技術</h3>
+<h4>技術</h3>
 <p>
   <code>Vue CLI</code>
   <code>Vue Router</code>
