@@ -11,7 +11,7 @@
           :class="{'bg-dark text-white c-mobile-width' :step === 1,
           'd-none d-lg-block' :step !== 1}"
           >
-            <span class="font-weight-bold h4">step01</span>
+            <span class="font-weight-bold h4">step 1</span>
             <br />
             <span class="font-weight-bold">確認購物清單</span>
           </li>
@@ -19,7 +19,7 @@
           :class="{'bg-dark text-white c-mobile-width' :step === 2,
           'd-none d-lg-block' :step !== 2}"
           >
-            <span class="font-weight-bold h4">step02</span>
+            <span class="font-weight-bold h4">step 2</span>
             <br />
             <span class="font-weight-bold">填寫訂購資料</span>
           </li>
@@ -27,7 +27,7 @@
           :class="{'bg-dark text-white c-mobile-width' :step === 3,
           'd-none d-lg-block' :step !== 3}"
           >
-            <span class="font-weight-bold h4">step03</span>
+            <span class="font-weight-bold h4">step 3</span>
             <br />
             <span class="font-weight-bold">付款及完成訂單</span>
           </li>
