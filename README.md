@@ -36,6 +36,8 @@
 
 ## 分頁說明
 
+<h3>前台</h3>
+
 <h4>首頁</h4>
 <p>使用跑馬燈輪播形象照和標語，對消費者傳達店家理念塑造品牌形象。Navbar固定於上方，方便用戶隨時找尋不同頁面。</p>
 
@@ -47,9 +49,7 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
-
 <p>商品以卡片式呈現，於圖片上動態覆蓋資訊品名價格等資訊，再以Modal呈現詳細內容。</p>
-
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/modal.png)
 
@@ -70,13 +70,18 @@
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step3.png)
 
 <h4>登入頁面</h4>
+<p>在登入時有簡易的驗證功能。</p>
 
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/login.png)
 
+<h4>關於店家</h4>
+<p>對於店家和主理人的故事背景以及店面的位置及聯絡方式。</p>
 
 
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/about.png)
 
+<h3>後台</h3>
 
 ## Project setup
 ```
