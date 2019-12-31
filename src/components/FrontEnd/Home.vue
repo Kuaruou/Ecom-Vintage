@@ -60,7 +60,7 @@
               v-for="(product, key) in productContentFilter"
               :key="key"
             >
-              <div class="card border-0 shadow-sm h-100 d-flex card-radius">
+              <div class="card border-0 h-100 d-flex card-radius">
                 <div class="img-container rounded">
                   <img class="card-img-top" :src="product.imageUrl" />
                 </div>
