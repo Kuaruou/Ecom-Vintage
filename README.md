@@ -69,7 +69,7 @@
 <p>第三步：確認商品資料及客戶資料無誤再行結帳。</p>
 
 
-![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step.png)
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step3.png)
 
 ## Project setup
 ```
