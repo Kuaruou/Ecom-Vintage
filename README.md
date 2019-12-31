@@ -83,6 +83,35 @@
 
 <h3>後台</h3>
 
+<h4>商品列表</h4>
+<p>商品列表可以新增、刪除、編輯和啟用產品。</p>
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/products.png)
+
+<h4>商品列表</h4>
+<p>呈現商品的各項資訊，可以新增、刪除、編輯和啟用產品。</p>
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/products.png)
+
+<p>各項商品以Modal來進行新增及編輯。</p>
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/product-modal.png)
+
+<h4>訂單列表</h4>
+<p>呈現訂單購買的品項等基本資訊。</p>
+
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/orders.png)
+
+<h4>優惠券列表</h4>
+<p>呈現優惠券的各項資訊，可以新增、刪除、編輯和啟用優惠券。</p>
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/coupons.png)
+
+<p>各別優惠券以Modal來進行新增及編輯。</p>
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/coupon-modal.png)
+
 ## Project setup
 ```
 npm install
