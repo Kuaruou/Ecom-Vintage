@@ -53,6 +53,24 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/modal.png)
 
+<h4>購物車</h4>
+<p>第一步：進行購物資料確認以及輸入優惠折扣碼，可刪除不想要的商品。</p>
+
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step1.png)
+
+
+<p>第二步：輸入客戶資料，且有表單驗證功能避免缺漏或者格式不符合的情形。</p>
+
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step2.png)
+
+
+<p>第三步：確認商品資料及客戶資料無誤再行結帳。</p>
+
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step.png)
+
 ## Project setup
 ```
 npm install
