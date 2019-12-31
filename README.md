@@ -38,9 +38,13 @@
 
 <h4>首頁</h4>
 <p>使用跑馬燈輪播形象照和標語，對消費者傳達店家理念塑造品牌形象。</p>
-<p>![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cover.png)</p>
+
+
+![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cover.png)
 
 <p>商品以卡片式呈現，於圖片上動態覆蓋資訊品名價格等資訊，再以Modal呈現詳細內容。</p>
+
+
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
 
