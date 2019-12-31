@@ -43,8 +43,6 @@
 <p>商品以卡片式呈現，於圖片上動態覆蓋資訊品名價格等資訊，再以Modal呈現詳細內容。</p>
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
-![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
-
 
 ## Project setup
 ```
