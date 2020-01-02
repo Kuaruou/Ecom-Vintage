@@ -7,7 +7,6 @@ import 'bootstrap';
 import VeeValidate from 'vee-validate';
 import zhTW from "vee-validate/dist/locale/zh_TW"; 
 import VueI18n from 'vue-i18n';
-// import videojs from 'video.js';
 
 import App from './App.vue';
 import router from './router';
@@ -28,7 +27,6 @@ Vue.use(VeeValidate, {
     zhTW
   }
 });
-// Vue.use(videojs);
 
 Vue.component('Loading', Loading);
 Vue.filter('currency', currencyFilter);
