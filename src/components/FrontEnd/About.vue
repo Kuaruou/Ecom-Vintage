@@ -5,11 +5,11 @@
     <div class="d-flex justify-content-center align-items-center bg-image">
       <div class="bg-text d-flex">
         <div class="h5 container justify-content-center align-items-center position-relative p-3">
-          <div class="" >
-            <video ref="videoPlayer" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9 mb-4" autoplay 
-            controls preload="auto" style="height: 100%; width: auto;">
-            <source src="../../assets/images/about/about.mp4" type="video/mp4">
-          </video>
+          <div class="">
+            <video ref="videoPlayer" class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9 mb-4" autoplay muted 
+              controls preload="auto" style="height: 100%; width: auto;">
+              <source src="../../assets/images/about/about.mp4" type="video/mp4">
+            </video>
           </div> 
           <!-- <img src="../../assets/images/about/owner.jpg" style="height: 20rem;" alt align="left" class="p-3 justify-content-center"/> -->
           <p>

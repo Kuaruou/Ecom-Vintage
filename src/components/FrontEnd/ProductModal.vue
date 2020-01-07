@@ -35,7 +35,7 @@
           <div class="modal-footer">
             <div class="text-muted text-nowrap mr-3">
               小計
-              <strong>{{ productData.num * productData.price }}</strong>元
+              <strong>{{ qty * productData.price }}</strong>元
             </div>
             <button
               type="button"
@@ -54,7 +54,7 @@
 export default {
   data() {
     return {
-      qty: 0
+      qty: 0,
     };
   },
   props: {
