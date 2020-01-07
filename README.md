@@ -11,6 +11,7 @@
     <li>設計搜尋欄和商品分類方便快速尋找所要的商品。</li>
     <li>購物車可對於購買商品進行確認及刪除，同時可套用優惠碼獲得折扣，並用VeeValidate對用戶進行表單驗證，避免資料不符格式或缺漏。</li>
     <li>管理者可以透過帳號密碼登入系統認證直接進入後台。</li>
+    <li>使用video.js在網頁中嵌入影片且自動播放。</li>
   </ul>
 <h4>後台</h4>
   <ul>
@@ -27,6 +28,7 @@
   <code>Bootstrap 4</code>
   <code>SCSS</code>
   <code>jQuery</code>
+  <code>video.js</code>
   <code>Font Awesome</code>
   <code>VeeValidate</code>
   <code>vue-axios</code>
@@ -76,7 +78,7 @@
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/login.png)
 
 <h4>關於店家</h4>
-<p>對於店家和主理人的故事背景以及店面的位置及聯絡方式。</p>
+<p>在網頁中嵌入影片且自動播放，介紹店家和主理人的故事背景以及店面的位置及聯絡方式。</p>
 
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/about.png)
