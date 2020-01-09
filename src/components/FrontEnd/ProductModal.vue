@@ -54,7 +54,7 @@
 export default {
   data() {
     return {
-      qty: 0,
+      qty: 1,
     };
   },
   props: {
@@ -78,7 +78,7 @@ export default {
   },
   watch: {
     cartData() {
-      this.qty = 0;
+      this.qty = 1;
     },
   },
 };
