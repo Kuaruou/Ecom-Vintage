@@ -29,7 +29,7 @@
             </div>
             <select name class="form-control mt-3" v-model="qty">
               <option value="0" disabled>--請選擇--</option>
-              <option :value="num" v-for="num in 10" :key="num">選購 {{num}} {{productData.unit}}</option>
+              <option v-for="num in 10" :value="num" :key="num">選購 {{num}} {{productData.unit}}</option>
             </select>
           </div>
           <div class="modal-footer">
