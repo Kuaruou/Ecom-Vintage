@@ -46,8 +46,7 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cover.png)
 
-<p>商品以卡片式呈現，於圖片上動態覆蓋資訊品名價格等資訊，再以Modal呈現詳細內容。</p>
-
+<p>商品內容上方有search bar，可以輸入如年分或者商品名稱等關鍵字進行搜尋篩選，在搜尋欄左方有商品分類選項也可以以此搜尋同類型商品。商品以卡片式呈現，於圖片上動態覆蓋資訊品名價格等資訊，再以Modal呈現詳細內容。</p>
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
