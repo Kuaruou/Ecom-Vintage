@@ -52,6 +52,43 @@
 
 <p>搜尋欄邏輯：篩選分類(將商品分類顯示於左方option中)，篩選與select相同分類的產品和篩選符合輸入關鍵字的產品。@Home.vue</p>
 
+```html
+        <form class="py-3 c-width mx-auto c-sticky-top" @submit.prevent>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <select
+                name="CategorySelector"
+                id="CategorySelector"
+                class="form-control rounded-left"
+                v-model="searchData.productCategory"
+              >
+                <option value="all" selected>All</option>
+                <option v-for="(item, key) in categoryFilter" :key="key" :value="item">{{item}}</option>
+              </select>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for items, vintages and styles."
+              aria-label="Text input with dropdown button"
+              v-model="searchData.productContent"
+              id="searchInput"
+            />
+            <div class="input-group-append">
+              <a
+                href="#"
+                class="input-group-text c-text-decoration-none"
+                @click.prevent="clearSearchBar"
+              >&times;</a>
+            </div>
+          </div>
+          <div class="bg-danger mt-3 text-white">
+            <div class="h3 d-flex justify-content-center">Xmas: Old Gifts For Old Friends</div>
+            <div class="h4 d-flex justify-content-center">Enter Code "merry1225" for 25% off discount.</div> 
+          </div>
+        </form>
+```
+
 ```javascript
 //篩選分類
     categoryFilter() {
