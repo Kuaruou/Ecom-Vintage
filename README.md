@@ -50,7 +50,7 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
-<p>overlay在設計時圖片覆蓋上色和文字覆蓋分開變成兩層覆蓋，避免文字位置遷就覆蓋色塊而難以放置到正確的位置。另外在transition設定足夠秒數使得覆蓋效果看起來比較柔和而不突兀。</p>
+<p>overlay在設計時圖片覆蓋上色和文字覆蓋分開變成兩層覆蓋，避免文字位置遷就覆蓋色塊而難以放置到正確的位置。另外在transition設定足夠秒數使得覆蓋效果看起來比較柔和而不突兀。@Home.scss</p>
 
 ```css
 .overlay-box {
@@ -89,6 +89,26 @@
 <p>Modal中商品數量預設為1，可以選擇商品數量後再加入購物車。</p>
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/modal.png)
+
+<p>使用watch預設數量的值為1，在有數量變動時監聽將指定值回傳到cartData。@ProductModal.vue</p>
+
+```javascript
+watch: {
+    cartData() {
+      this.qty = 1;
+    },
+  }
+```
+```javascript
+cartData: {
+      type: Object,//指定組件的 props 驗證規則，如果傳入的數據不符合型別檢測等要求Vue會發出警告。
+      default() {
+        return {};
+      },
+    },
+```
+
+
 
 <h4>2. 購物車</h4>
 <p>第一步：進行購物資料確認以及輸入優惠折扣碼，可刪除不想要的商品。</p>
