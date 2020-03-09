@@ -90,7 +90,7 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/modal.png)
 
-<p>使用watch預設數量的值為1，在有數量變動時監聽將指定值回傳到cartData。@ProductModal.vue</p>
+<p>使用watch預設數量的值為1，在qty數量有變動時監聽將指定數量傳到cartData。@ProductModal.vue</p>
 
 ```javascript
 watch: {
