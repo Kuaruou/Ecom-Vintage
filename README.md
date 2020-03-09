@@ -50,6 +50,94 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
+<p>搜尋欄邏輯：篩選分類(將商品分類顯示於左方option中)，篩選與select相同分類的產品和篩選符合輸入關鍵字的產品。@Home.vue</p>
+
+```html
+        <form class="py-3 c-width mx-auto c-sticky-top" @submit.prevent>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <select
+                name="CategorySelector"
+                id="CategorySelector"
+                class="form-control rounded-left"
+                v-model="searchData.productCategory"
+              >
+                <option value="all" selected>All</option>
+                <option v-for="(item, key) in categoryFilter" :key="key" :value="item">{{item}}</option>
+              </select>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for items, vintages and styles."
+              aria-label="Text input with dropdown button"
+              v-model="searchData.productContent"
+              id="searchInput"
+            />
+            <div class="input-group-append">
+              <a
+                href="#"
+                class="input-group-text c-text-decoration-none"
+                @click.prevent="clearSearchBar"
+              >&times;</a>
+            </div>
+          </div>
+          <div class="bg-danger mt-3 text-white">
+            <div class="h3 d-flex justify-content-center">Xmas: Old Gifts For Old Friends</div>
+            <div class="h4 d-flex justify-content-center">Enter Code "merry1225" for 25% off discount.</div> 
+          </div>
+        </form>
+```
+
+```javascript
+//篩選分類
+    categoryFilter() {
+      const vm = this;
+      const cacheCategory = [];
+      let filteredCategory = [];
+      //過濾重複出現的類型
+      vm.products.forEach(el => cacheCategory.push(el.category));
+      filteredCategory = cacheCategory.filter(
+        (el, id, ary) => ary.indexOf(el) === id
+        //indexOf() 方法會回傳給定元素於陣列中第一個被找到之索引，若不存在於陣列中則回傳 -1。
+      );
+      return filteredCategory;
+      console.log(filteredCategory);
+    },
+    //篩選與select相同分類的產品
+    productCategoryFilter() {
+      const vm = this;
+      //如果分類為全部，返回原來的值
+      if (vm.searchData.productCategory === "all") {
+        return vm.products;
+      }
+      //返回與option相同的分類
+      return vm.products.filter(
+        item => item.category === vm.searchData.productCategory
+      );
+      console.log(item);
+    },
+    //篩選符合輸入關鍵字的產品
+    productContentFilter() {
+      const vm = this;
+      //如果input/text內有字即過濾產品
+      if (vm.searchData.productContent) {
+        return vm.productCategoryFilter.filter(el => {
+          const title = el.title.toLowerCase().trim();//將字串變成小寫後回傳且刪去前後的空格
+          const content = el.description.toLowerCase().trim();
+          const keyword = vm.searchData.productContent;
+          //同時搜尋title與content內的文字
+          return (
+            title.indexOf(keyword) !== -1 || content.indexOf(keyword) !== -1
+          );
+        });
+      }
+      // 若輸入欄內沒有文字，就用select再判斷一次
+      return vm.productCategoryFilter;
+    }
+  }
+```
+
 <p>overlay在設計時圖片覆蓋上色和文字覆蓋分開變成兩層覆蓋，避免文字位置遷就覆蓋色塊而難以放置到正確的位置。另外在transition設定足夠秒數使得覆蓋效果看起來比較柔和而不突兀。@Home.scss</p>
 
 ```css
