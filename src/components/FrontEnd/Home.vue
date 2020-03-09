@@ -206,12 +206,12 @@ export default {
         vm.isLoading = false;
       });
     },
-    recommend(keyword) {
-      //自動填入搜尋欄
-      const vm = this;
-      vm.searchData.productContent = keyword.title;
-      vm.searchData.productCategory = keyword.category;
-    },
+    // recommend(keyword) {
+    //   //自動填入搜尋欄
+    //   const vm = this;
+    //   vm.searchData.productContent = keyword.title;
+    //   vm.searchData.productCategory = keyword.category;
+    // },
     clearSearchBar() {
       const vm = this;
       vm.searchData.productContent = "";
