@@ -40,7 +40,7 @@
 
 <h3>前台</h3>
 
-<h4>首頁</h4>
+<h4>1. 首頁</h4>
 <p>使用跑馬燈輪播形象照和標語，對消費者傳達店家理念塑造品牌形象。Navbar固定於上方，方便用戶隨時找尋不同頁面。</p>
 
 
@@ -90,7 +90,7 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/modal.png)
 
-<h4>購物車</h4>
+<h4>2. 購物車</h4>
 <p>第一步：進行購物資料確認以及輸入優惠折扣碼，可刪除不想要的商品。</p>
 
 
@@ -106,13 +106,13 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/cart-step3.png)
 
-<h4>登入頁面</h4>
+<h4>3. 登入頁面</h4>
 <p>在登入時有簡易的驗證功能。</p>
 
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/login.png)
 
-<h4>關於店家</h4>
+<h4>4. 關於店家</h4>
 <p>在網頁中嵌入影片且自動播放，介紹店家和主理人的故事背景以及店面的位置及聯絡方式。</p>
 
 
@@ -120,13 +120,9 @@
 
 <h3>後台</h3>
 
-<h4>商品列表</h4>
+<h4>1. 商品列表</h4>
 <p>商品列表可以新增、刪除、編輯和啟用產品。</p>
 
-![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/products.png)
-
-<h4>商品列表</h4>
-<p>呈現商品的各項資訊，可以新增、刪除、編輯和啟用產品。</p>
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/products.png)
 
@@ -134,13 +130,12 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/product-modal.png)
 
-<h4>訂單列表</h4>
+<h4>2. 訂單列表</h4>
 <p>呈現訂單購買的品項等基本資訊。</p>
-
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/orders.png)
 
-<h4>優惠券列表</h4>
+<h4>3. 優惠券列表</h4>
 <p>呈現優惠券的各項資訊，可以新增、刪除、編輯和啟用優惠券。</p>
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/coupons.png)
