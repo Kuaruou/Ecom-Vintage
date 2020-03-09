@@ -239,6 +239,7 @@ export default {
       vm.products.forEach(el => cacheCategory.push(el.category));
       filteredCategory = cacheCategory.filter(
         (el, id, ary) => ary.indexOf(el) === id
+        //indexOf() 方法會回傳給定元素於陣列中第一個被找到之索引，若不存在於陣列中則回傳 -1。
       );
       return filteredCategory;
       console.log(filteredCategory);
@@ -262,7 +263,7 @@ export default {
       //如果input/text內有字即過濾產品
       if (vm.searchData.productContent) {
         return vm.productCategoryFilter.filter(el => {
-          const title = el.title.toLowerCase().trim();
+          const title = el.title.toLowerCase().trim();//將字串變成小寫後回傳且刪去前後的空格
           const content = el.description.toLowerCase().trim();
           const keyword = vm.searchData.productContent;
           //同時搜尋title與content內的文字
