@@ -50,7 +50,7 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
-<p>overlay在設計時圖片覆蓋上色和文字覆蓋分開變成兩層覆蓋，避免文字位置遷就背景色位置而難以放置到正確的位置。</p>
+<p>overlay在設計時圖片覆蓋上色和文字覆蓋分開變成兩層覆蓋，避免文字位置遷就覆蓋色塊而難以放置到正確的位置。另外在transition設定足夠秒數使得覆蓋效果看起來比較柔和而不突兀。</p>
 
 ```css
 .overlay-box {
