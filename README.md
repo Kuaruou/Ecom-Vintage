@@ -50,6 +50,42 @@
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/shop.png)
 
+<p>overlay在設計時圖片覆蓋上色和文字覆蓋分開變成兩層覆蓋，避免文字位置遷就背景色位置而難以放置到正確的位置。</p>
+
+```css
+.overlay-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: darkcyan;
+}
+
+.overlay-text {
+  display: none;
+  position: absolute;
+  transition: .5s ease;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card:hover .overlay-box {
+  transition: .5s ease;
+  opacity: 0.9;
+}
+
+.card:hover .overlay-text {
+  display: block;
+  transition: .5s ease;
+  opacity: 1;
+}
+```
+
 <p>Modal中商品數量預設為1，可以選擇商品數量後再加入購物車。</p>
 
 ![image](https://github.com/Kuaruou/Ecom-Vintage/blob/master/web-img/modal.png)
