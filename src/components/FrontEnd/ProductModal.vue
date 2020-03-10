@@ -60,7 +60,7 @@ export default {
   props: {
     productData: {
       type: Object,
-      default() {
+      default() {//無傳入資料時，使用預設值
         return {};
       },
     },
