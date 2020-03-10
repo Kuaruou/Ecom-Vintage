@@ -196,7 +196,21 @@ cartData: {
     },
 ```
 
+<p>組合元件為父子元件，當一個A元件包含另一個B元件，則A、B元件就形成了父子關係。父元件會透過 props 向下傳遞資料給子元件，子元件則透過 emit 傳遞資料給父元件。</p>
 
+<p>子元件@ProductModal.vue 透過 emitAddToCart 傳遞單向資料流到父元件@Home.vue 的 addToCart。 :cartData 則是透過 v-bind 動態傳遞 prop 到carts。</p>
+
+```html
+<ProductModal :productData="product" @emitAddToCart="addToCart" :cartData="carts" />
+```
+
+```javascript
+methods: {
+    emitAddToCart(id, num) {
+      this.$emit('emitAddToCart', id, num);
+    },
+  },
+```
 
 <h4>2. 購物車</h4>
 <p>第一步：進行購物資料確認以及輸入優惠折扣碼，可刪除不想要的商品。</p>
