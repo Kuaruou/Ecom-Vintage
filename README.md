@@ -190,7 +190,7 @@ watch: {
 ```javascript
 cartData: {
       type: Object,//指定組件的 props 驗證規則，如果傳入的數據不符合型別檢測等要求Vue會發出警告。
-      default() {
+      default() {//無傳入資料時，使用預設值
         return {};
       },
     },
