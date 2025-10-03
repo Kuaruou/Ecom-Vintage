@@ -18,10 +18,10 @@
     "serialize-javascript": "^3.1.0",
     "vee-validate": "^2.2.15",
     "video.js": "^7.16.0",
-    "vue": "^2.6.10",
+    "vue": "^3.5.22",
     "vue-axios": "^2.1.4",
     "vue-i18n": "^8.14.1",
-    "vue-loading-overlay": "^3.2.0",
+    "vue-loading-overlay": "^6.0.6",
     "vue-router": "^3.1.2"
   },
   "devDependencies": {
